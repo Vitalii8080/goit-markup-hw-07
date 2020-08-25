@@ -172,7 +172,8 @@
       &:checked + .icon-checkbox {
         background-color: $accent-color;
         border-color: $accent-color;
-        background-image: url("../Images/svg/icon_check.svg ");
+        background-image: url("/images/icon-check.svg");
+        background-repeat: no-repeat;
         background-size: contain;
       }
     }
