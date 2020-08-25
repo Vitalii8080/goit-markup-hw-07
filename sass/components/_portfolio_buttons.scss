@@ -10,7 +10,7 @@
     }
   }
   
-  .button-filters {
+  .bfilters {
     border: none;
     padding: 6px 23px;
     background-color: $accent-grey;
@@ -20,7 +20,7 @@
     font-weight: 500;
     transition: background-color $transition-values, color $transition-values,
       box-shadow $transition-values;
-  
+      border-radius: 4px;
     &:hover,
     &:focus {
       cursor: pointer;

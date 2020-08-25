@@ -499,7 +499,7 @@ h2 {
   margin-left: 8px;
 }
 
-.button-filters {
+.bfilters {
   border: none;
   padding: 6px 23px;
   background-color: #f5f4fa;
@@ -511,9 +511,10 @@ h2 {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
 }
 
-.button-filters:hover, .button-filters:focus {
+.bfilters:hover, .bfilters:focus {
   cursor: pointer;
   background-color: #2196f3;
   color: #ffffff;
@@ -560,17 +561,17 @@ h2 {
   color: #ffffff;
 }
 
-.join-conteiner {
+.join-container {
   padding-top: 12px;
   margin-right: 94px;
 }
 
-.join-conteiner .join {
+.join-container .join {
   color: #ffffff;
   text-transform: uppercase;
 }
 
-.join-conteiner .social-network-list-footer {
+.join-container .social-network-list-footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
